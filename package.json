@@ -1,0 +1,22 @@
+{
+  "name": "hygen-protp-type",
+  "version": "1.0.0",
+  "description": "First time using hygen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhtak/hygen-proto-type.git"
+  },
+  "author": "hhhtak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hhhtak/hygen-proto-type/issues"
+  },
+  "homepage": "https://github.com/hhhtak/hygen-proto-type#readme",
+  "dependencies": {
+    "hygen": "^6.0.4"
+  }
+}
