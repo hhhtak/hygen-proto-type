@@ -1,5 +1,7 @@
 ---
 to: _templates/<%= name %>/<%= action || 'new' %>/hello.ejs.t
+message: |
+  --nameには<%= name %>が入りました。
 ---
 ---
 to: app/hello.js

@@ -1,3 +1,6 @@
+---
+to: app/hello.js
+---
 const hello = ```
 Hello!
 This is your first prompt based hygen template.

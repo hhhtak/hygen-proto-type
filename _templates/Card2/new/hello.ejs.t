@@ -1,9 +1,9 @@
 ---
-to: app/hello.ts
+to: app/hello.js
 ---
 const hello = ```
 Hello!
-This is your first hygen template2.
+This is your first hygen template.
 
 Learn what it can do here:
 
