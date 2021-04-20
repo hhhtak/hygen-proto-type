@@ -1,7 +1,7 @@
 ---
-to: app/hello.js
+to: src/<%= message %>/hello.js
 ---
-const hello = ```
+const index = ```
 Hello!
 This is your first prompt based hygen template.
 
@@ -10,6 +10,6 @@ Learn what it can do here:
 https://github.com/jondot/hygen
 ```
 
-console.log(hello)
+console.log(index)
 
 
