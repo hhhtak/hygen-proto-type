@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/hhhtak/hygen-proto-type#readme",
   "dependencies": {
-    "hygen": "^6.0.4"
+    "hygen": "^1.6.2"
   }
 }
