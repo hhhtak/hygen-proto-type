@@ -5,6 +5,12 @@ module.exports = [
   {
     type: "input",
     name: "message",
-    message: "What's your messageeeeee?",
+    message: "What's your message?",
+    choices: ["standard", "organism", "moment"],
+  },
+  {
+    type: "input",
+    name: "name",
+    message: "What's your hogehoge?",
   },
 ];
