@@ -6,29 +6,14 @@ module.exports = {
     inquirer.prompt([
       {
         type: "list",
-        name: "message",
-        message: "What's your message?",
-        choices: ["aaa", "bbb", "ccc"],
+        name: "type",
+        message: "Choice Component Type.",
+        choices: ["atoms", "molecules", "organism"],
       },
       {
         type: "input",
         name: "name",
-        message: "What's your messageeeee?",
+        message: "Input Component Name.",
       },
-    ]),
-  // .then(({ message }) => inquirer.prompt()),
+    ])
 };
-
-// module.exports = [
-//   {
-//     type: "list",
-//     name: "message",
-//     message: "What's your message?",
-//     choices: ["aaa", "bbb", "ccc"],
-//   },
-//   {
-//     type: "input",
-//     name: "name",
-//     message: "What's your messageeeee?",
-//   },
-// ];

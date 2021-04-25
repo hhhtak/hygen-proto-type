@@ -1,15 +1,14 @@
 ---
-to: src/<%= message %>/hello.js
+to: src/<%= type %>/index.tsx
 ---
-const index = ```
-Hello!
-This is your first prompt based hygen template.
+import * as React from "react";
+import * as style from "./style.css";
 
-Learn what it can do here:
+type Props = {}
 
-https://github.com/jondot/hygen
-```
+export const <%= name %>: React.FC = () => {
+  return (
+  )
+}
 
-console.log(index)
-
-
+export default <%= name %>;
